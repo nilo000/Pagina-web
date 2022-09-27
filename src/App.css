@@ -1,0 +1,103 @@
+body{
+    font-family: 'Mate SC',
+    serif;
+    width: 100%;
+    }
+
+.nitems{
+  margin-left: 21.9rem;
+}
+.tit{
+  font-size: 6rem;
+}
+.inicio{
+  margin-top: 2rem;
+  background-image: url(http://www.alpejuridico.com/wp-content/uploads/2017/10/fondo-abogado-fuengirola.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 41.4rem;
+}
+.nav{
+ overflow: auto;
+ position:sticky;
+ top: 0;
+ width: 100%;
+}
+.umg{
+  position:static;
+  width: 100%;
+}
+.us{
+  padding-bottom: 8rem;
+}
+.area{
+  background-color:silver;
+  padding: 1rem;
+  padding-bottom: 11rem;
+  font-size: 1.3rem;
+}
+.area2{
+  padding-bottom: 2rem;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+  margin-left: 19rem;
+}
+.contactos{
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+}
+#boton{
+  margin-bottom: 5rem;
+}
+.borde{
+  border: 1px #000 solid;
+  text-align: center;
+  height: 50px;
+}
+
+@media screen and (max-width : 600px) {
+
+.inicio{
+  padding-top: 5rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  padding-bottom: 40rem;
+}
+.umg{
+  width: 0%;
+}
+.us{
+  padding-left: 4rem;
+  padding-bottom: 0rem;
+  margin-bottom:5rem ;
+}
+.nav{
+  width: 100%;
+  position: sticky;
+}
+.tit2{
+  margin-right: 3rem;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+.area{
+padding-bottom: 1rem;
+padding: 0% ;
+}
+.area2{
+
+    padding: 1rem;
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.tit{
+  font-size: 2.6rem;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+}
